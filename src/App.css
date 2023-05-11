@@ -1,0 +1,86 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+.Header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  font-size: 25px;
+  font-weight: bold;
+  box-shadow: 0 3px 6px 0 #555;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.AppName{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.movieImage{
+  width: 48px;
+  height: 48px;
+  margin: 15px;
+}
+.searchBox{
+  display: flex;
+  flex-direction: row;
+  padding: 10px 10px;
+  background-color: white;
+  border-radius: 6px;
+  margin-left: 20px;
+  width: 50%;
+  background-color: white;
+  align-items: center;
+}
+.searchIcon{
+  width: 32px;
+  height: 32px;
+}
+.searchInput{
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  margin-left: 15px;
+  outline: none;
+  width: 70%;
+}
+.MovieListContainer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 30px;
+  justify-content: space-evenly;
+}
+.MovieContainer{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: 280px;
+  box-shadow: 0 3px 10px 0 #aaa;
+  cursor: pointer;
+}
+.CoverImage{
+  object-fit: cover;
+  height: 362px;
+}
+.MovieName{
+font-size: 18px;
+font-weight: 600;
+color: black;
+margin: 15px 0;
+}
+.span{
+font-size: 15px;
+font-weight: 600;
+color: black;
+}
